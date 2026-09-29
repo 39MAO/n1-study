@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f8fb" />
+    <title>語彙練習 — N1 Study</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-quiz-kind="vocabulary" data-quiz-data="../data/vocabulary.json">
+    <main class="quiz-page">
+      <header class="quiz-header">
+        <a class="back-link" href="../" aria-label="返回首页">
+          <span aria-hidden="true">←</span> 首页
+        </a>
+        <a class="quiz-brand" href="../">N1 Study</a>
+        <span class="quiz-section-label" lang="ja">語彙</span>
+      </header>
+
+      <section class="quiz-content" aria-labelledby="quiz-title">
+        <div class="quiz-heading">
+          <p class="quiz-kicker" lang="ja">VOCABULARY PRACTICE</p>
+          <h1 id="quiz-title" lang="ja">語彙</h1>
+        </div>
+
+        <div id="quiz-status" class="quiz-status" role="status" aria-live="polite">
+          正在读取词汇题库…
+        </div>
+
+        <div id="question-area" class="question-area" hidden>
+          <div class="question-meta">
+            <span id="question-count">第 1 / 0 题</span>
+            <span id="question-category" class="category-badge"></span>
+          </div>
+          <div class="progress-track" aria-hidden="true">
+            <div id="progress-fill" class="progress-fill"></div>
+          </div>
+          <article class="question-card">
+            <p id="question-prompt" class="question-prompt" lang="ja"></p>
+            <div id="answer-options" class="answer-options" role="group" aria-label="选择一个答案"></div>
+          </article>
+          <section id="answer-feedback" class="feedback-panel" aria-live="polite" hidden>
+            <h2 id="feedback-result" class="feedback-result"></h2>
+            <div class="feedback-block">
+              <h3>中文解析</h3>
+              <p id="feedback-explanation"></p>
+            </div>
+            <div class="feedback-block">
+              <h3>选项说明</h3>
+              <ul id="feedback-options" class="feedback-options"></ul>
+            </div>
+            <div class="knowledge-box">
+              <h3>相关知识点</h3>
+              <p id="feedback-knowledge"></p>
+            </div>
+            <button id="next-question" class="next-button" type="button">下一题</button>
+          </section>
+        </div>
+
+        <section id="results-screen" class="results-screen" aria-labelledby="results-title" hidden>
+          <p class="quiz-kicker">PRACTICE COMPLETE</p>
+          <h2 id="results-title">练习完成！</h2>
+          <p class="results-message">本轮答题结果</p>
+          <dl class="results-list">
+            <div class="result-row">
+              <dt>总题数</dt>
+              <dd id="result-total">0</dd>
+            </div>
+            <div class="result-row">
+              <dt>正确数量</dt>
+              <dd id="result-correct">0</dd>
+            </div>
+            <div class="result-row">
+              <dt>错误数量</dt>
+              <dd id="result-incorrect">0</dd>
+            </div>
+            <div class="result-row result-rate-row">
+              <dt>正确率</dt>
+              <dd id="result-rate">0%</dd>
+            </div>
+          </dl>
+          <button id="restart-practice" class="next-button" type="button">もう一度挑戦する</button>
+        </section>
+      </section>
+    </main>
+    <script src="./quiz.js" defer></script>
+  </body>
+</html>
+
