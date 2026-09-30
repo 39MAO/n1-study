@@ -478,6 +478,185 @@
     "knowledge_point": "精緻（せいち）：細部まで精密で作り込まれているさま。複雑さ（複雑）、厳格さ（厳密）、簡潔さ（簡潔）とは焦点が異なる。",
     "difficulty": "N1",
     "review_status": "AI_checked"
+  },
+    {
+    "id": "v026",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "彼は何か不満があるのか、こちらをじっと（　）ような目で見ていた。",
+    "options": ["にらむ", "さらす", "あばく", "おおう"],
+    "answer": 0,
+    "explanation": "相手を敵意や不満を込めて見ることは「にらむ」と言います。",
+    "option_explanations": [
+      "正解。「にらむような目で見る」は自然な表現です。",
+      "「さらす」は人目に触れさせることです。",
+      "「あばく」は隠された事実などを明らかにすることです。",
+      "「おおう」は表面を覆うことです。"
+    ],
+    "knowledge_point": "にらむ：敵意・不満などを込めて鋭く見る。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v027",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "会社の発展のために長年（　）きた彼の功績は大きい。",
+    "options": ["つまずいて", "尽くして", "怠って", "もたついて"],
+    "answer": 1,
+    "explanation": "「会社のために尽くす」は、会社のために力をささげて働くことです。",
+    "option_explanations": [
+      "「つまずく」は失敗する、または足を取られることです。",
+      "正解。「尽くしてきた」は長年貢献してきたという意味です。",
+      "「怠る」はすべきことをしないことです。",
+      "「もたつく」は動作や進行が遅いことです。"
+    ],
+    "knowledge_point": "尽くす：人や組織のために力をささげる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v028",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "彼は約束の時間になっても（　）していて、なかなか出発しようとしない。",
+    "options": ["そっけなく", "がさつに", "もたもた", "しょっちゅう"],
+    "answer": 2,
+    "explanation": "出発の準備が遅く、動作がてきぱきしない様子を表します。",
+    "option_explanations": [
+      "「そっけなく」は冷淡な態度です。",
+      "「がさつに」は動作や扱いが粗雑な様子です。",
+      "正解。「もたもたする」は動作や進行が遅いことです。",
+      "「しょっちゅう」は頻度が非常に高いことです。"
+    ],
+    "knowledge_point": "もたもたする：動作や物事の進み方が遅い。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v029",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "彼女は人の気持ちを考えず、言葉遣いもかなり（　）ところがある。",
+    "options": ["稀な", "がさつな", "局所的な", "そっけない"],
+    "answer": 1,
+    "explanation": "人への配慮に欠け、言葉や振る舞いが粗雑な様子には「がさつ」が合います。",
+    "option_explanations": [
+      "「稀な」はめったにないことです。",
+      "正解。「がさつ」は言動が粗雑で細やかな配慮に欠ける様子です。",
+      "「局所的な」は限られた部分に関することです。",
+      "「そっけない」は冷淡で愛想がない様子です。"
+    ],
+    "knowledge_point": "がさつ：言動や扱いが粗雑で、細やかな配慮に欠ける様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v030",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "感染者のくしゃみなどによって生じた（　）が空気中に広がる可能性がある。",
+    "options": ["唾液", "飛沫", "漆喰", "結核"],
+    "answer": 1,
+    "explanation": "くしゃみなどで飛び散る小さな水滴は「飛沫」です。",
+    "option_explanations": [
+      "「唾液」は口の中の液体そのものです。",
+      "正解。「飛沫」は液体が細かい粒となって飛び散ったものです。",
+      "「漆喰」は建築に使う塗り壁材です。",
+      "「結核」は感染症の名称です。"
+    ],
+    "knowledge_point": "飛沫：咳やくしゃみなどで飛び散る細かな液滴。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v031",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "手に付いたウイルスが物の表面に（　）し、そこから感染が広がることもある。",
+    "options": ["付着", "露呈", "治療", "局所"],
+    "answer": 0,
+    "explanation": "物の表面にくっつくことを「付着する」と言います。",
+    "option_explanations": [
+      "正解。「表面に付着する」は自然な組み合わせです。",
+      "「露呈」は隠れていたことが表に現れることです。",
+      "「治療」は病気を治すための処置です。",
+      "「局所」は限られた部分・場所を指す名詞です。"
+    ],
+    "knowledge_point": "付着する：物が他の物の表面にくっつく。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v032",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "事実を隠そうとしていたが、調査によってついに真相を（　）ことができた。",
+    "options": ["覆う", "尽くす", "暴く", "晒す"],
+    "answer": 2,
+    "explanation": "隠されていた真相を明らかにすることは「暴く」と言います。",
+    "option_explanations": [
+      "「覆う」は表面を包み隠すことです。",
+      "「尽くす」は力を出し切る、または貢献することです。",
+      "正解。「真相を暴く」は隠された事実を明らかにする表現です。",
+      "「晒す」は人目にさらすことですが、「真相を暴く」がこの文脈で最も適切です。"
+    ],
+    "knowledge_point": "暴く：隠されていた悪事や真相を明らかにする。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v033",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "重要なデータの確認を（　）と、大きなミスにつながる恐れがある。",
+    "options": ["怠る", "つまずく", "触れる", "治まる"],
+    "answer": 0,
+    "explanation": "必要な確認をしないことを「確認を怠る」と言います。",
+    "option_explanations": [
+      "正解。「確認を怠る」は確認を十分に行わないことです。",
+      "「つまずく」は失敗する、または足を取られることです。",
+      "「触れる」は物に接する、または話題に言及することです。",
+      "「治まる」は症状や騒ぎが落ち着くことです。"
+    ],
+    "knowledge_point": "怠る：すべきことを十分にしない。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v034",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "長時間コンピューターを使っていたら、画面の一部が（　）して読めなくなった。",
+    "options": ["文字化け", "下痢", "付着", "飛沫"],
+    "answer": 0,
+    "explanation": "文字が意図しない記号などに置き換わって表示される現象を「文字化け」と言います。",
+    "option_explanations": [
+      "正解。「文字化けして読めない」は自然な表現です。",
+      "「下痢」は体調の症状です。",
+      "「付着」は物が表面にくっつくことです。",
+      "「飛沫」は細かな液滴です。"
+    ],
+    "knowledge_point": "文字化け：文字コードなどの問題で文字が正しく表示されないこと。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+    {
+    "id": "v035",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "病気の症状がようやく（　）ので、少しずつ普段の生活に戻ることにした。",
+    "options": ["覆った", "晒した", "治まった", "にらんだ"],
+    "answer": 2,
+    "explanation": "症状が落ち着くことを「症状が治まる」と言います。",
+    "option_explanations": [
+      "「覆う」は表面を包むことです。",
+      "「晒す」は人目に触れさせることです。",
+      "正解。「症状が治まる」は症状が軽くなり落ち着くことです。",
+      "「にらむ」は敵意などを込めて見ることです。"
+    ],
+    "knowledge_point": "治まる：痛み・症状・騒ぎなどが落ち着く。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
   }
 ]
-
