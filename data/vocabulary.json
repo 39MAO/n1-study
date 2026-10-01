@@ -628,5 +628,366 @@
     "knowledge_point": "治まる：痛み・症状・騒ぎなどが落ち着く。",
     "difficulty": "N1",
     "review_status": "AI_checked"
+  },
+  {
+    "id": "v036",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "スーパーの（　）には、旬を迎えた野菜が色鮮やかに並べられている。",
+    "options": ["地べた", "店先", "墓", "電極"],
+    "answer": 1,
+    "explanation": "「店先」は店の入り口付近や店の前を指します。旬の野菜が並べられる場所として自然です。",
+    "option_explanations": [
+      "「地べた」は地面そのものを指します。",
+      "正解。「店先に商品を並べる」は自然な表現です。",
+      "「墓」は遺体や遺骨を葬る場所です。",
+      "「電極」は電流を出入りさせる部分です。"
+    ],
+    "knowledge_point": "店先：店の前や入り口付近。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v037",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "鍋料理に使うため、八百屋で新鮮な（　）を買ってきた。",
+    "options": ["春菊", "蛍光", "酵素", "露地もの"],
+    "answer": 0,
+    "explanation": "鍋料理の材料として買う野菜には「春菊」が合います。",
+    "option_explanations": [
+      "正解。春菊は鍋料理によく使われる葉物野菜です。",
+      "「蛍光」は光を受けた物質が発する光の性質です。",
+      "「酵素」は体内などで化学反応を助ける物質です。",
+      "「露地もの」は屋外の畑で栽培された農作物を指し、ここでは野菜の種類を問う文に合いません。"
+    ],
+    "knowledge_point": "春菊（しゅんぎく）：鍋物などに使われるキク科の野菜。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v038",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "後ろから声をかけられ、彼は驚いて周囲を（　）。",
+    "options": ["放った", "見回した", "塗布した", "含有した"],
+    "answer": 1,
+    "explanation": "驚いて周りを見渡す動作は「見回す」です。",
+    "option_explanations": [
+      "「放つ」は光・声などを外へ出すことです。",
+      "正解。「周囲を見回す」は辺りをぐるりと見ることです。",
+      "「塗布する」は薬剤などを表面に塗ることです。",
+      "「含有する」は成分などを中に含むことです。"
+    ],
+    "knowledge_point": "見回す：周囲をぐるりと見る。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v039",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "そんな大事な話を、（　）に座ったまま聞くのは失礼だ。",
+    "options": ["地べた", "店先", "墓", "ショーケース"],
+    "answer": 0,
+    "explanation": "地面に直接座ることを「地べたに座る」と言います。",
+    "option_explanations": [
+      "正解。「地べたに座る」は地面に直接座ることです。",
+      "「店先」は店の前や入り口付近で、座る場所を指しません。",
+      "「墓」は人を葬った場所です。",
+      "「ショーケース」は商品などを展示する陳列ケースです。"
+    ],
+    "knowledge_point": "地べた：地面。くだけた言い方。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v040",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "参加者は三日間で（　）5000人に達し、会場は終日大いににぎわった。",
+    "options": ["都合", "事情", "勝手", "具合"],
+    "answer": 0,
+    "explanation": "「都合」は合計を表す言い方で、「都合5000人」は合計で5000人という意味です。",
+    "option_explanations": [
+      "正解。「都合5000人」は合計5000人を表します。",
+      "「事情」は物事の背景や状況です。",
+      "「勝手」は自分の都合だけで行動することなどを表します。",
+      "「具合」は状態や調子を表します。"
+    ],
+    "knowledge_point": "都合：合計。例：都合三日間。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v041",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "暗闇の中で、その装置は強い光を（　）、周囲を明るく照らしていた。",
+    "options": ["放って", "欠いて", "自滅して", "死滅して"],
+    "answer": 0,
+    "explanation": "光を外へ出すことは「光を放つ」と言います。",
+    "option_explanations": [
+      "正解。「光を放つ」は光を発することです。",
+      "「欠く」は必要なものが不足することです。",
+      "「自滅する」は自分自身を滅ぼすことです。",
+      "「死滅する」は生物などが死んでなくなることです。"
+    ],
+    "knowledge_point": "放つ：光・声などを外へ出す。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v042",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "製品名は長いため、資料では会社名の（　）だけを使って表記している。",
+    "options": ["都合", "頭文字", "輝度", "酵素"],
+    "answer": 1,
+    "explanation": "語句の最初の文字は「頭文字」と言います。",
+    "option_explanations": [
+      "「都合」は事情や合計を表します。",
+      "正解。「会社名の頭文字」は会社名の最初の文字です。",
+      "「輝度」は光源や画面の明るさの度合いです。",
+      "「酵素」は化学反応を助ける物質です。"
+    ],
+    "knowledge_point": "頭文字：語句の最初の文字。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v043",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "画面の（　）が低すぎて、暗い場所では文字が見えにくい。",
+    "options": ["蛍光", "輝度", "水耕", "電極"],
+    "answer": 1,
+    "explanation": "画面の明るさの度合いは「輝度」です。",
+    "option_explanations": [
+      "「蛍光」は物質が光を発する現象です。",
+      "正解。「輝度が低い」は画面などの明るさが低いことです。",
+      "「水耕」は土を使わず水と養分で植物を育てる方法です。",
+      "「電極」は電流が出入りする部分です。"
+    ],
+    "knowledge_point": "輝度（きど）：光源・画面などの明るさの度合い。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v044",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "このディスプレーは（　）に対応しており、細かな色の違いまで鮮明に表示できる。",
+    "options": ["フルカラー", "露地もの", "地べた", "長い目"],
+    "answer": 0,
+    "explanation": "多くの色を表示できることを「フルカラー」と言います。",
+    "option_explanations": [
+      "正解。「フルカラーに対応する」は多くの色を表示できるという意味です。",
+      "「露地もの」は屋外の畑で栽培された農作物です。",
+      "「地べた」は地面です。",
+      "「長い目」は長期的な視点を表します。"
+    ],
+    "knowledge_point": "フルカラー：多くの色を使った表示方式。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v045",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "この薬品を患部に薄く（　）ことで、炎症を抑える効果が期待できる。",
+    "options": ["放った", "塗布する", "照射する", "早める"],
+    "answer": 1,
+    "explanation": "薬品を患部の表面に塗ることは「塗布する」と言います。",
+    "option_explanations": [
+      "「放つ」は外へ出すことです。",
+      "正解。「患部に薬品を塗布する」は自然な表現です。",
+      "「照射する」は光や放射線を当てることです。",
+      "「早める」は予定などを前倒しにすることです。"
+    ],
+    "knowledge_point": "塗布する：薬剤などを表面に塗る。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v046",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "野菜の栽培方法には、土を使わずに水と養分を与えて育てる（　）もある。",
+    "options": ["密閉", "水耕", "蛍光", "含有"],
+    "answer": 1,
+    "explanation": "土を使わず水と養分で植物を育てる方法は「水耕」です。",
+    "option_explanations": [
+      "「密閉」は隙間をなくして閉じることです。",
+      "正解。「水耕」は水と養分で植物を栽培する方法です。",
+      "「蛍光」は光を受けた物質が発する光の性質です。",
+      "「含有」は成分などを中に含むことです。"
+    ],
+    "knowledge_point": "水耕（すいこう）：土を使わず、水と養分で植物を育てる方法。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v047",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "容器を完全に（　）すると、内部の空気が外に漏れるのを防げる。",
+    "options": ["密閉する", "放出する", "見回す", "挙行する"],
+    "answer": 0,
+    "explanation": "容器の隙間をなくして閉じることは「密閉する」です。",
+    "option_explanations": [
+      "正解。「容器を密閉する」は隙間なく閉じることです。",
+      "「放出する」は中にあるものを外へ出すことです。",
+      "「見回す」は周囲を見ることです。",
+      "「挙行する」は式や行事を行うことです。"
+    ],
+    "knowledge_point": "密閉する：隙間のない状態に閉じる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v048",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "植物は光を受けると、酸素を（　）する。",
+    "options": ["含有", "放出", "欠如", "早め"],
+    "answer": 1,
+    "explanation": "植物が酸素を外へ出すことは「放出する」と表せます。",
+    "option_explanations": [
+      "「含有」は中に含んでいることです。",
+      "正解。「酸素を放出する」は酸素を外へ出すことです。",
+      "「欠如」は必要なものが欠けていることです。",
+      "「早め」は「早める」の連用形で、酸素を外へ出す意味にはなりません。"
+    ],
+    "knowledge_point": "放出する：中にあるものを外へ出す。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v049",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "被害が拡大する前に、関係機関は必要な対策を（　）必要がある。",
+    "options": ["早める", "欠く", "自滅する", "死滅する"],
+    "answer": 0,
+    "explanation": "被害が大きくなる前に対策の時期を前倒しする意味で「早める」が合います。",
+    "option_explanations": [
+      "正解。「対策を早める」は対策をより早く行うことです。",
+      "「欠く」は必要なものが不足することです。",
+      "「自滅する」は自分自身を滅ぼすことです。",
+      "「死滅する」は生物などが死んでなくなることです。"
+    ],
+    "knowledge_point": "早める：予定・時期などを前にする。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v050",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "この地域では、春になると新鮮な（　）の野菜が店頭に並ぶ。",
+    "options": ["長い目", "露地もの", "フルカラー", "インジケーター"],
+    "answer": 1,
+    "explanation": "屋外の畑で栽培された野菜は「露地もの」と呼ばれます。",
+    "option_explanations": [
+      "「長い目」は長期的な視点です。",
+      "正解。「露地ものの野菜」は屋外の畑で栽培された野菜です。",
+      "「フルカラー」は多くの色を使った表示方式です。",
+      "「インジケーター」は状態などを示す表示器です。"
+    ],
+    "knowledge_point": "露地もの：温室ではなく屋外の畑で栽培された農作物。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v051",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "この装置では、特殊な光を患部に（　）して治療を行う。",
+    "options": ["含有する", "照射する", "放つ", "塗布する"],
+    "answer": 1,
+    "explanation": "光を患部に当てることは「照射する」と言います。",
+    "option_explanations": [
+      "「含有する」は成分などを中に含むことです。",
+      "正解。「患部に光を照射する」は自然な表現です。",
+      "「放つ」は光などを外へ出すことで、患部に当てる意味ではありません。",
+      "「塗布する」は薬剤などを表面に塗ることです。"
+    ],
+    "knowledge_point": "照射する：光・放射線などを対象に当てる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v052",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "この食品は鉄分を多く（　）ため、貧血予防に役立つとされている。",
+    "options": ["挙行する", "含有する", "死滅する", "早める"],
+    "answer": 1,
+    "explanation": "食品の中に成分を含むことは「含有する」と言います。",
+    "option_explanations": [
+      "「挙行する」は式や行事を行うことです。",
+      "正解。「鉄分を含有する」は鉄分を成分として含むことです。",
+      "「死滅する」は生物などが死んでなくなることです。",
+      "「早める」は時期を前にすることです。"
+    ],
+    "knowledge_point": "含有する：成分などを中に含む。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v053",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "彼とは卒業式で話した（　）、その後一度も連絡を取っていない。",
+    "options": ["きり", "ほど", "だけ", "まで"],
+    "answer": 0,
+    "explanation": "「～たきり」は、その後同じ行為や状態が続いていないことを表します。",
+    "option_explanations": [
+      "正解。「話したきり」は話した後、それ以降は話していないという意味です。",
+      "「ほど」は程度や範囲を表します。",
+      "「だけ」は限定を表しますが、この形では後続の「その後一度も」と自然につながりません。",
+      "「まで」は到達点や範囲を表します。"
+    ],
+    "knowledge_point": "～たきり：ある行為の後、それ以降同じ行為がないことを表す。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v054",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "この計画が成功するかどうかは別として、（　）準備だけは進めておくべきだ。",
+    "options": ["長い目", "きり", "いずれにしても", "遅かれ早かれ"],
+    "answer": 2,
+    "explanation": "結論にかかわらず準備を進めるという文脈には「いずれにしても」が合います。",
+    "option_explanations": [
+      "「長い目」は長期的な視点を表し、「長い目で見る」のように使います。",
+      "「きり」は回数や範囲を限る表現で、文意に合いません。",
+      "正解。「いずれにしても」はどちらの場合でも、結局のところという意味です。",
+      "「遅かれ早かれ」はいつかは必ず起こるという意味で、ここでは計画の成否を問わない意味になりません。"
+    ],
+    "knowledge_point": "いずれにしても：どちらの場合でも、結局のところ。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v055",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "今は順調に見える会社も、経営努力を怠れば、（　）衰退する可能性がある。",
+    "options": ["遅かれ早かれ", "いずれにしても", "長い目で", "きり"],
+    "answer": 0,
+    "explanation": "将来いつかは衰退する可能性を表すには「遅かれ早かれ」が合います。",
+    "option_explanations": [
+      "正解。「遅かれ早かれ」は時期に差があっても、いつかはという意味です。",
+      "「いずれにしても」はどちらの場合でもという意味です。",
+      "「長い目で」は長期的な視点からという意味で、後ろに「見る」などが必要です。",
+      "「きり」は限定を表すため、この文には接続できません。"
+    ],
+    "knowledge_point": "遅かれ早かれ：時期の早い遅いにかかわらず、いつかは。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
   }
 ]
+
