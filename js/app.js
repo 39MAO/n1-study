@@ -1,6 +1,7 @@
 const themeStorageKey = "n1-study:theme";
 const themeToggles = document.querySelectorAll("[data-theme-toggle]");
 const themeColorMeta = document.querySelector('meta[name="theme-color"]');
+let themeChangeSequence = 0;
 
 function readSavedTheme() {
   try {
@@ -13,7 +14,18 @@ function readSavedTheme() {
 
 function setTheme(theme, save = false) {
   const isDark = theme === "dark";
-  document.documentElement.dataset.theme = isDark ? "dark" : "light";
+  const root = document.documentElement;
+  const changeSequence = ++themeChangeSequence;
+  root.classList.add("theme-changing");
+  root.dataset.theme = isDark ? "dark" : "light";
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      if (changeSequence === themeChangeSequence) {
+        root.classList.remove("theme-changing");
+      }
+    });
+  });
 
   themeToggles.forEach((toggle) => {
     const label = isDark ? "切换到浅色模式" : "切换到暗色模式";

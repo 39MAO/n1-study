@@ -716,6 +716,13 @@ body {
 }
 
 /* 暗色模式 */
+:root.theme-changing,
+:root.theme-changing *,
+:root.theme-changing *::before,
+:root.theme-changing *::after {
+  transition: none !important;
+}
+
 :root[data-theme="dark"] {
   color-scheme: dark;
   --ink: #e5eaf2;
