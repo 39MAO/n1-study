@@ -1,10 +1,15 @@
 [
-    {
+  {
     "id": "v001",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "担当者は被害の状況を確かめるため、現地に【赴いた】。",
-    "options": ["はげんだ", "うながした", "おもむいた", "たずさわった"],
+    "options": [
+      "はげんだ",
+      "うながした",
+      "おもむいた",
+      "たずさわった"
+    ],
     "answer": 2,
     "explanation": "「赴く」は、ある場所へ向かうという意味です。ここでは担当者が現地へ行ったことを表します。",
     "option_explanations": [
@@ -17,12 +22,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v002",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "この地域では、医療を担う人材が【乏しい】。",
-    "options": ["とぼしい", "はげしい", "まずしい", "さびしい"],
+    "options": [
+      "とぼしい",
+      "はげしい",
+      "まずしい",
+      "さびしい"
+    ],
     "answer": 0,
     "explanation": "「乏しい」は、必要なものや十分な量がないことを表します。人材の数が十分でないという文脈です。",
     "option_explanations": [
@@ -35,12 +45,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v003",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "外部からの【介入】を避け、当事者同士で解決を目指した。",
-    "options": ["かいよう", "かいにゅう", "かいじょう", "がいにゅう"],
+    "options": [
+      "かいよう",
+      "かいにゅう",
+      "かいじょう",
+      "がいにゅう"
+    ],
     "answer": 1,
     "explanation": "「介入」は、ある事柄に第三者が入り込んで関わることです。",
     "option_explanations": [
@@ -53,12 +68,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v004",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "この認証方式は便利だが、外部からの攻撃に対して【脆弱】な面がある。",
-    "options": ["さいじゃく", "きじゃく", "ぜいよわ", "ぜいじゃく"],
+    "options": [
+      "さいじゃく",
+      "きじゃく",
+      "ぜいよわ",
+      "ぜいじゃく"
+    ],
     "answer": 3,
     "explanation": "「脆弱」は、壊れやすいことや、弱点があって攻撃などに弱いことを意味します。",
     "option_explanations": [
@@ -71,12 +91,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v005",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "新しい制度は、従来の手続きを【踏襲】して設計された。",
-    "options": ["ふしゅう", "とうしょう", "とうしゅう", "ふしょう"],
+    "options": [
+      "ふしゅう",
+      "とうしょう",
+      "とうしゅう",
+      "ふしょう"
+    ],
     "answer": 2,
     "explanation": "「踏襲」は、これまでのやり方や方針を受け継ぐことです。",
     "option_explanations": [
@@ -89,12 +114,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v006",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "担当者は、提出期限を守るよう参加者に【促した】。",
-    "options": ["うちけした", "うらがえした", "うながした", "うるおした"],
+    "options": [
+      "うちけした",
+      "うらがえした",
+      "うながした",
+      "うるおした"
+    ],
     "answer": 2,
     "explanation": "「促す」は、相手にある行動をするよう働きかけることです。",
     "option_explanations": [
@@ -107,12 +137,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v007",
     "type": "vocabulary",
     "category": "kanji_reading",
     "question": "研究チームは、観測データを精緻に分析した。ここで「精緻」の読み方はどれか。",
-    "options": ["せいち", "せいじ", "しょうち", "せいし"],
+    "options": [
+      "せいち",
+      "せいじ",
+      "しょうち",
+      "せいし"
+    ],
     "answer": 0,
     "explanation": "「精緻」は「せいち」と読み、細部まで精密で詳しいことを表します。",
     "option_explanations": [
@@ -125,12 +160,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v008",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "予算が限られているため、会社は事業の一部縮小を余儀なくされた。この表現の意味はどれか。",
-    "options": ["周囲の反対を押し切って、そうした", "自分から進んで、そうすることにした", "一時的な試しとして、そうしてみた", "ほかに方法がなく、そうするしかなかった"],
+    "options": [
+      "周囲の反対を押し切って、そうした",
+      "自分から進んで、そうすることにした",
+      "一時的な試しとして、そうしてみた",
+      "ほかに方法がなく、そうするしかなかった"
+    ],
     "answer": 3,
     "explanation": "「～を余儀なくされる」は、事情によって望まないことでもせざるを得なくなるという意味です。",
     "option_explanations": [
@@ -143,12 +183,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v009",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "委員会は、報告書に記された重大な不備を看過できないと判断した。「看過する」の意味はどれか。",
-    "options": ["問題を見逃して、そのままにする", "問題の責任をほかの人に負わせる", "内容を詳しく調べて、記録に残す", "不足している部分を補って、完成させる"],
+    "options": [
+      "問題を見逃して、そのままにする",
+      "問題の責任をほかの人に負わせる",
+      "内容を詳しく調べて、記録に残す",
+      "不足している部分を補って、完成させる"
+    ],
     "answer": 0,
     "explanation": "「看過する」は、問題や欠点に気づきながら見逃すことです。文では「できない」とあるので、見逃すことはできないという意味です。",
     "option_explanations": [
@@ -161,12 +206,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v010",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "彼の説明は要点を押さえており、簡潔で明瞭だった。「明瞭」の意味として最も適切なものはどれか。",
-    "options": ["はっきりしていて、分かりやすい", "厳しくて、相手に妥協しない", "控えめで、目立たない", "細部にわたって、非常に長い"],
+    "options": [
+      "はっきりしていて、分かりやすい",
+      "厳しくて、相手に妥協しない",
+      "控えめで、目立たない",
+      "細部にわたって、非常に長い"
+    ],
     "answer": 0,
     "explanation": "「明瞭」は、内容や形がはっきりしていて分かりやすいことです。",
     "option_explanations": [
@@ -179,12 +229,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v011",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "この地域では、住民の高齢化が顕著になっている。「顕著」の意味はどれか。",
-    "options": ["一時的に隠れている", "目立ってはっきりしている", "予想よりも遅れている", "少しずつ改善している"],
+    "options": [
+      "一時的に隠れている",
+      "目立ってはっきりしている",
+      "予想よりも遅れている",
+      "少しずつ改善している"
+    ],
     "answer": 1,
     "explanation": "「顕著」は、状態や変化がはっきり目立つことを表します。",
     "option_explanations": [
@@ -197,12 +252,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v012",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "新しい規則の導入をめぐって、部門間で見解の相違が生じた。「相違」の意味はどれか。",
-    "options": ["一方が他方に従うこと", "互いに協力し合うこと", "意見を公に発表すること", "互いに同じではないこと"],
+    "options": [
+      "一方が他方に従うこと",
+      "互いに協力し合うこと",
+      "意見を公に発表すること",
+      "互いに同じではないこと"
+    ],
     "answer": 3,
     "explanation": "「相違」は、二つ以上のものの間に違いがあることです。",
     "option_explanations": [
@@ -215,12 +275,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v013",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "彼女は批判を受けても、終始一貫した姿勢を崩さなかった。「終始一貫」の意味はどれか。",
-    "options": ["状況に応じて、方針を何度も変える", "初めは反対したが、最後には賛成する", "最初から最後まで、態度や方針が変わらない", "始めたことを途中でやめてしまう"],
+    "options": [
+      "状況に応じて、方針を何度も変える",
+      "初めは反対したが、最後には賛成する",
+      "最初から最後まで、態度や方針が変わらない",
+      "始めたことを途中でやめてしまう"
+    ],
     "answer": 2,
     "explanation": "「終始一貫」は、始めから終わりまで考え方や態度が一貫していることです。",
     "option_explanations": [
@@ -233,12 +298,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v014",
     "type": "vocabulary",
     "category": "synonym",
     "question": "次の文の「懸念」と最も意味が近いものはどれか。\n\n計画の遅れが、地域経済に悪影響を及ぼすとの懸念が広がっている。",
-    "options": ["期待", "危惧", "疑念", "警戒"],
+    "options": [
+      "期待",
+      "危惧",
+      "疑念",
+      "警戒"
+    ],
     "answer": 1,
     "explanation": "「懸念」は望ましくない結果を心配することです。この文では、計画の遅れが地域経済に悪影響を及ぼすのではないかという「危惧」が最も近い意味です。",
     "option_explanations": [
@@ -251,12 +321,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v015",
     "type": "vocabulary",
     "category": "synonym",
     "question": "次の文の「緩和」と最も意味が近いものはどれか。\n\n市は、通勤時間帯の混雑を緩和するため、バスの便数を増やした。",
-    "options": ["抑制する", "軽減する", "回避する", "解消する"],
+    "options": [
+      "抑制する",
+      "軽減する",
+      "回避する",
+      "解消する"
+    ],
     "answer": 1,
     "explanation": "「緩和する」は、状態の厳しさや程度を軽くすることです。バスを増便して混雑を減らす文脈では「軽減する」が最も近く、混雑を完全になくすことまでは意味しません。",
     "option_explanations": [
@@ -269,12 +344,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v016",
     "type": "vocabulary",
     "category": "synonym",
     "question": "次の文の「著しい」と最も意味が近いものはどれか。\n\n改修後、建物の安全性は著しく向上した。",
-    "options": ["大幅に", "一時的に", "少しずつ", "短期間のうちに"],
+    "options": [
+      "大幅に",
+      "一時的に",
+      "少しずつ",
+      "短期間のうちに"
+    ],
     "answer": 0,
     "explanation": "「著しく」は変化の程度が大きいことを表します。この文では「著しく向上した」を「大幅に向上した」と自然に言い換えられます。",
     "option_explanations": [
@@ -287,12 +367,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v017",
     "type": "vocabulary",
     "category": "synonym",
     "question": "次の文の「見送る」と最も意味が近いものはどれか。\n\n安全性を確認できなかったため、委員会は新制度の導入を見送った。",
-    "options": ["実施方法を詳しく説明した", "予定より早く実施した", "今回は実施しないことにした", "別の組織に実施を任せた"],
+    "options": [
+      "実施方法を詳しく説明した",
+      "予定より早く実施した",
+      "今回は実施しないことにした",
+      "別の組織に実施を任せた"
+    ],
     "answer": 2,
     "explanation": "この文の「見送る」は、計画などを検討したうえで、今回は実行しないことにする意味です。",
     "option_explanations": [
@@ -305,12 +390,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v018",
     "type": "vocabulary",
     "category": "synonym",
     "question": "次の文の「著した」と最も意味が近いものはどれか。\n\n彼は長年の研究成果を一冊の専門書に著した。",
-    "options": ["専門書として書き上げた", "成果を口頭で発表した", "資料を図表に整理した", "成果を箇条書きで記録した"],
+    "options": [
+      "専門書として書き上げた",
+      "成果を口頭で発表した",
+      "資料を図表に整理した",
+      "成果を箇条書きで記録した"
+    ],
     "answer": 0,
     "explanation": "「著す」は、書物・著作を書き表すことです。この文では研究成果を専門書として書き上げたという意味で、出版の有無までは含みません。",
     "option_explanations": [
@@ -323,12 +413,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v019",
     "type": "vocabulary",
     "category": "word_usage",
     "question": "「懸念」の使い方として最も適切な文はどれか。",
-    "options": ["書類の懸念を確認してから、署名してください。", "彼は懸念な声で、会場の全員に挨拶した。", "長年の懸念が実を結び、新製品が完成した。", "利用者の減少が続き、施設の存続が懸念されている。"],
+    "options": [
+      "書類の懸念を確認してから、署名してください。",
+      "彼は懸念な声で、会場の全員に挨拶した。",
+      "長年の懸念が実を結び、新製品が完成した。",
+      "利用者の減少が続き、施設の存続が懸念されている。"
+    ],
     "answer": 3,
     "explanation": "「懸念される」は、悪い事態が起こるのではないかと心配されるという自然な表現です。",
     "option_explanations": [
@@ -341,12 +436,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v020",
     "type": "vocabulary",
     "category": "word_usage",
     "question": "「踏襲」の使い方として最も適切な文はどれか。",
-    "options": ["会議で出た質問を踏襲して、詳しい答えを考えた。", "新しい担当者は、前任者の方針を踏襲して業務を進めた。", "雨が降ったので、道の水たまりを踏襲して歩いた。", "駅に着くと、彼は急いで電車を踏襲した。"],
+    "options": [
+      "会議で出た質問を踏襲して、詳しい答えを考えた。",
+      "新しい担当者は、前任者の方針を踏襲して業務を進めた。",
+      "雨が降ったので、道の水たまりを踏襲して歩いた。",
+      "駅に着くと、彼は急いで電車を踏襲した。"
+    ],
     "answer": 1,
     "explanation": "「踏襲する」は、前例や方針、形式などを受け継ぐという意味で使います。",
     "option_explanations": [
@@ -359,12 +459,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v021",
     "type": "vocabulary",
     "category": "word_usage",
     "question": "「促す」の使い方として最も適切な文はどれか。",
-    "options": ["研究者は測定器の数値を促して、記録に残した。", "係員は会場の椅子を促して、通路を広くした。", "店員は商品の包装を促して、箱に入れた。", "案内表示を増やし、来場者に順路の確認を促した。"],
+    "options": [
+      "研究者は測定器の数値を促して、記録に残した。",
+      "係員は会場の椅子を促して、通路を広くした。",
+      "店員は商品の包装を促して、箱に入れた。",
+      "案内表示を増やし、来場者に順路の確認を促した。"
+    ],
     "answer": 3,
     "explanation": "「促す」は人に行動をするよう働きかける語です。「人に～を促す」の形で使えます。",
     "option_explanations": [
@@ -377,12 +482,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v022",
     "type": "vocabulary",
     "category": "word_usage",
     "question": "「乏しい」の使い方として最も適切な文はどれか。",
-    "options": ["彼は実務経験が乏しいため、研修で基礎から学んでいる。", "彼女は毎日練習し、ピアノの演奏が乏しくなった。", "この布は手触りが乏しく、柔らかくて心地よい。", "会場は人で乏しく、入り口まで長い列ができていた。"],
+    "options": [
+      "彼は実務経験が乏しいため、研修で基礎から学んでいる。",
+      "彼女は毎日練習し、ピアノの演奏が乏しくなった。",
+      "この布は手触りが乏しく、柔らかくて心地よい。",
+      "会場は人で乏しく、入り口まで長い列ができていた。"
+    ],
     "answer": 0,
     "explanation": "「経験が乏しい」は、経験の量が十分でないことを表す自然な組み合わせです。",
     "option_explanations": [
@@ -395,12 +505,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v023",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "「看過できない」とあるとき、最も近い意味はどれか。\n\n安全基準に関わる誤りなので、担当者は看過できないと考えた。",
-    "options": ["問題の原因を見抜くことはできない", "問題への対応を別の人に任せることはできない", "問題を詳しく調べる必要はない", "問題を見逃して、そのままにすることはできない"],
+    "options": [
+      "問題の原因を見抜くことはできない",
+      "問題への対応を別の人に任せることはできない",
+      "問題を詳しく調べる必要はない",
+      "問題を見逃して、そのままにすることはできない"
+    ],
     "answer": 3,
     "explanation": "「看過する」は問題や欠点を見逃してそのままにすることです。「看過できない」は、安全基準に関わる誤りを見逃して放置することはできない、という意味です。",
     "option_explanations": [
@@ -413,12 +528,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v024",
     "type": "vocabulary",
     "category": "word_usage",
     "question": "計画の進め方をめぐり、委員の間で見解に＿＿が表面化した。議論を重ねても意見は一致せず、結論は次回に持ち越された。",
-    "options": ["相殺", "相違", "相当", "相応"],
+    "options": [
+      "相殺",
+      "相違",
+      "相当",
+      "相応"
+    ],
     "answer": 1,
     "explanation": "「見解に相違がある」は、考え方や判断に違いがあることを表す自然な組み合わせです。後文の「意見は一致せず」も、見解の違いを示しています。",
     "option_explanations": [
@@ -431,12 +551,17 @@
     "difficulty": "N1",
     "review_status": "AI_checked"
   },
-    {
+  {
     "id": "v025",
     "type": "vocabulary",
     "category": "word_meaning",
     "question": "図面には部材の寸法だけでなく、接合部の細部まで精緻に描かれている。ここで「精緻」の意味として最も適切なものはどれか。",
-    "options": ["多くの要素が複雑に絡み合っている", "手順や条件が厳しく正確に守られている", "細部まで精密で、よく作り込まれている", "余分な部分がなく、簡潔にまとめられている"],
+    "options": [
+      "多くの要素が複雑に絡み合っている",
+      "手順や条件が厳しく正確に守られている",
+      "細部まで精密で、よく作り込まれている",
+      "余分な部分がなく、簡潔にまとめられている"
+    ],
     "answer": 2,
     "explanation": "「精緻」は細部まで精密で、細かいところまで作り込まれていることです。図面の接合部まで細かく描写されている文脈に合います。",
     "option_explanations": [
@@ -454,7 +579,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "彼は何か不満があるのか、こちらをじっと（　）ような目で見ていた。",
-    "options": ["にらむ", "さらす", "あばく", "おおう"],
+    "options": [
+      "にらむ",
+      "さらす",
+      "あばく",
+      "おおう"
+    ],
     "answer": 0,
     "explanation": "相手を敵意や不満を込めて見ることは「にらむ」と言います。",
     "option_explanations": [
@@ -472,7 +602,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "会社の発展のために長年（　）きた彼の功績は大きい。",
-    "options": ["つまずいて", "尽くして", "怠って", "もたついて"],
+    "options": [
+      "つまずいて",
+      "尽くして",
+      "怠って",
+      "もたついて"
+    ],
     "answer": 1,
     "explanation": "「会社のために尽くす」は、会社のために力をささげて働くことです。",
     "option_explanations": [
@@ -490,7 +625,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "彼は約束の時間になっても（　）していて、なかなか出発しようとしない。",
-    "options": ["そっけなく", "がさつに", "もたもた", "しょっちゅう"],
+    "options": [
+      "そっけなく",
+      "がさつに",
+      "もたもた",
+      "しょっちゅう"
+    ],
     "answer": 2,
     "explanation": "出発の準備が遅く、動作がてきぱきしない様子を表します。",
     "option_explanations": [
@@ -508,7 +648,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "彼女は人の気持ちを考えず、言葉遣いもかなり（　）ところがある。",
-    "options": ["稀な", "がさつな", "局所的な", "そっけない"],
+    "options": [
+      "稀な",
+      "がさつな",
+      "局所的な",
+      "そっけない"
+    ],
     "answer": 1,
     "explanation": "人への配慮に欠け、言葉や振る舞いが粗雑な様子には「がさつ」が合います。",
     "option_explanations": [
@@ -526,7 +671,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "感染者のくしゃみなどによって生じた（　）が空気中に広がる可能性がある。",
-    "options": ["唾液", "飛沫", "漆喰", "結核"],
+    "options": [
+      "唾液",
+      "飛沫",
+      "漆喰",
+      "結核"
+    ],
     "answer": 1,
     "explanation": "くしゃみなどで飛び散る小さな水滴は「飛沫」です。",
     "option_explanations": [
@@ -544,7 +694,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "手に付いたウイルスが物の表面に（　）し、そこから感染が広がることもある。",
-    "options": ["付着", "露呈", "治療", "局所"],
+    "options": [
+      "付着",
+      "露呈",
+      "治療",
+      "局所"
+    ],
     "answer": 0,
     "explanation": "物の表面にくっつくことを「付着する」と言います。",
     "option_explanations": [
@@ -562,7 +717,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "事実を隠そうとしていたが、調査によってついに真相を（　）ことができた。",
-    "options": ["覆う", "尽くす", "暴く", "晒す"],
+    "options": [
+      "覆う",
+      "尽くす",
+      "暴く",
+      "晒す"
+    ],
     "answer": 2,
     "explanation": "隠されていた真相を明らかにすることは「暴く」と言います。",
     "option_explanations": [
@@ -580,7 +740,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "重要なデータの確認を（　）と、大きなミスにつながる恐れがある。",
-    "options": ["怠る", "つまずく", "触れる", "治まる"],
+    "options": [
+      "怠る",
+      "つまずく",
+      "触れる",
+      "治まる"
+    ],
     "answer": 0,
     "explanation": "必要な確認をしないことを「確認を怠る」と言います。",
     "option_explanations": [
@@ -598,7 +763,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "長時間コンピューターを使っていたら、画面の一部が（　）して読めなくなった。",
-    "options": ["文字化け", "下痢", "付着", "飛沫"],
+    "options": [
+      "文字化け",
+      "下痢",
+      "付着",
+      "飛沫"
+    ],
     "answer": 0,
     "explanation": "文字が意図しない記号などに置き換わって表示される現象を「文字化け」と言います。",
     "option_explanations": [
@@ -616,7 +786,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "病気の症状がようやく（　）ので、少しずつ普段の生活に戻ることにした。",
-    "options": ["覆った", "晒した", "治まった", "にらんだ"],
+    "options": [
+      "覆った",
+      "晒した",
+      "治まった",
+      "にらんだ"
+    ],
     "answer": 2,
     "explanation": "症状が落ち着くことを「症状が治まる」と言います。",
     "option_explanations": [
@@ -634,7 +809,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "スーパーの（　）には、旬を迎えた野菜が色鮮やかに並べられている。",
-    "options": ["地べた", "店先", "墓", "電極"],
+    "options": [
+      "地べた",
+      "店先",
+      "墓",
+      "電極"
+    ],
     "answer": 1,
     "explanation": "「店先」は店の入り口付近や店の前を指します。旬の野菜が並べられる場所として自然です。",
     "option_explanations": [
@@ -652,7 +832,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "鍋料理に使うため、八百屋で新鮮な（　）を買ってきた。",
-    "options": ["春菊", "蛍光", "酵素", "露地もの"],
+    "options": [
+      "春菊",
+      "蛍光",
+      "酵素",
+      "露地もの"
+    ],
     "answer": 0,
     "explanation": "鍋料理の材料として買う野菜には「春菊」が合います。",
     "option_explanations": [
@@ -670,7 +855,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "後ろから声をかけられ、彼は驚いて周囲を（　）。",
-    "options": ["放った", "見回した", "塗布した", "含有した"],
+    "options": [
+      "放った",
+      "見回した",
+      "塗布した",
+      "含有した"
+    ],
     "answer": 1,
     "explanation": "驚いて周りを見渡す動作は「見回す」です。",
     "option_explanations": [
@@ -688,7 +878,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "そんな大事な話を、（　）に座ったまま聞くのは失礼だ。",
-    "options": ["地べた", "店先", "墓", "ショーケース"],
+    "options": [
+      "地べた",
+      "店先",
+      "墓",
+      "ショーケース"
+    ],
     "answer": 0,
     "explanation": "地面に直接座ることを「地べたに座る」と言います。",
     "option_explanations": [
@@ -706,7 +901,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "参加者は三日間で（　）5000人に達し、会場は終日大いににぎわった。",
-    "options": ["都合", "事情", "勝手", "具合"],
+    "options": [
+      "都合",
+      "事情",
+      "勝手",
+      "具合"
+    ],
     "answer": 0,
     "explanation": "「都合」は合計を表す言い方で、「都合5000人」は合計で5000人という意味です。",
     "option_explanations": [
@@ -724,7 +924,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "暗闇の中で、その装置は強い光を（　）、周囲を明るく照らしていた。",
-    "options": ["放って", "欠いて", "自滅して", "死滅して"],
+    "options": [
+      "放って",
+      "欠いて",
+      "自滅して",
+      "死滅して"
+    ],
     "answer": 0,
     "explanation": "光を外へ出すことは「光を放つ」と言います。",
     "option_explanations": [
@@ -742,7 +947,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "製品名は長いため、資料では会社名の（　）だけを使って表記している。",
-    "options": ["都合", "頭文字", "輝度", "酵素"],
+    "options": [
+      "都合",
+      "頭文字",
+      "輝度",
+      "酵素"
+    ],
     "answer": 1,
     "explanation": "語句の最初の文字は「頭文字」と言います。",
     "option_explanations": [
@@ -760,7 +970,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "画面の（　）が低すぎて、暗い場所では文字が見えにくい。",
-    "options": ["蛍光", "輝度", "水耕", "電極"],
+    "options": [
+      "蛍光",
+      "輝度",
+      "水耕",
+      "電極"
+    ],
     "answer": 1,
     "explanation": "画面の明るさの度合いは「輝度」です。",
     "option_explanations": [
@@ -778,7 +993,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "このディスプレーは（　）に対応しており、細かな色の違いまで鮮明に表示できる。",
-    "options": ["フルカラー", "露地もの", "地べた", "長い目"],
+    "options": [
+      "フルカラー",
+      "露地もの",
+      "地べた",
+      "長い目"
+    ],
     "answer": 0,
     "explanation": "多くの色を表示できることを「フルカラー」と言います。",
     "option_explanations": [
@@ -796,7 +1016,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "この薬品を患部に薄く（　）ことで、炎症を抑える効果が期待できる。",
-    "options": ["放った", "塗布する", "照射する", "早める"],
+    "options": [
+      "放った",
+      "塗布する",
+      "照射する",
+      "早める"
+    ],
     "answer": 1,
     "explanation": "薬品を患部の表面に塗ることは「塗布する」と言います。",
     "option_explanations": [
@@ -814,7 +1039,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "野菜の栽培方法には、土を使わずに水と養分を与えて育てる（　）もある。",
-    "options": ["密閉", "水耕", "蛍光", "含有"],
+    "options": [
+      "密閉",
+      "水耕",
+      "蛍光",
+      "含有"
+    ],
     "answer": 1,
     "explanation": "土を使わず水と養分で植物を育てる方法は「水耕」です。",
     "option_explanations": [
@@ -832,7 +1062,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "容器を完全に（　）すると、内部の空気が外に漏れるのを防げる。",
-    "options": ["密閉する", "放出する", "見回す", "挙行する"],
+    "options": [
+      "密閉する",
+      "放出する",
+      "見回す",
+      "挙行する"
+    ],
     "answer": 0,
     "explanation": "容器の隙間をなくして閉じることは「密閉する」です。",
     "option_explanations": [
@@ -850,7 +1085,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "植物は光を受けると、酸素を（　）する。",
-    "options": ["含有", "放出", "欠如", "早め"],
+    "options": [
+      "含有",
+      "放出",
+      "欠如",
+      "早め"
+    ],
     "answer": 1,
     "explanation": "植物が酸素を外へ出すことは「放出する」と表せます。",
     "option_explanations": [
@@ -868,7 +1108,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "被害が拡大する前に、関係機関は必要な対策を（　）必要がある。",
-    "options": ["早める", "欠く", "自滅する", "死滅する"],
+    "options": [
+      "早める",
+      "欠く",
+      "自滅する",
+      "死滅する"
+    ],
     "answer": 0,
     "explanation": "被害が大きくなる前に対策の時期を前倒しする意味で「早める」が合います。",
     "option_explanations": [
@@ -886,7 +1131,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "この地域では、春になると新鮮な（　）の野菜が店頭に並ぶ。",
-    "options": ["長い目", "露地もの", "フルカラー", "インジケーター"],
+    "options": [
+      "長い目",
+      "露地もの",
+      "フルカラー",
+      "インジケーター"
+    ],
     "answer": 1,
     "explanation": "屋外の畑で栽培された野菜は「露地もの」と呼ばれます。",
     "option_explanations": [
@@ -904,7 +1154,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "この装置では、特殊な光を患部に（　）して治療を行う。",
-    "options": ["含有する", "照射する", "放つ", "塗布する"],
+    "options": [
+      "含有する",
+      "照射する",
+      "放つ",
+      "塗布する"
+    ],
     "answer": 1,
     "explanation": "光を患部に当てることは「照射する」と言います。",
     "option_explanations": [
@@ -922,7 +1177,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "この食品は鉄分を多く（　）ため、貧血予防に役立つとされている。",
-    "options": ["挙行する", "含有する", "死滅する", "早める"],
+    "options": [
+      "挙行する",
+      "含有する",
+      "死滅する",
+      "早める"
+    ],
     "answer": 1,
     "explanation": "食品の中に成分を含むことは「含有する」と言います。",
     "option_explanations": [
@@ -940,7 +1200,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "彼とは卒業式で話した（　）、その後一度も連絡を取っていない。",
-    "options": ["きり", "ほど", "だけ", "まで"],
+    "options": [
+      "きり",
+      "ほど",
+      "だけ",
+      "まで"
+    ],
     "answer": 0,
     "explanation": "「～たきり」は、その後同じ行為や状態が続いていないことを表します。",
     "option_explanations": [
@@ -958,7 +1223,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "この計画が成功するかどうかは別として、（　）準備だけは進めておくべきだ。",
-    "options": ["長い目", "きり", "いずれにしても", "遅かれ早かれ"],
+    "options": [
+      "長い目",
+      "きり",
+      "いずれにしても",
+      "遅かれ早かれ"
+    ],
     "answer": 2,
     "explanation": "結論にかかわらず準備を進めるという文脈には「いずれにしても」が合います。",
     "option_explanations": [
@@ -976,7 +1246,12 @@
     "type": "vocabulary",
     "category": "vocabulary_context",
     "question": "今は順調に見える会社も、経営努力を怠れば、（　）衰退する可能性がある。",
-    "options": ["遅かれ早かれ", "いずれにしても", "長い目で", "きり"],
+    "options": [
+      "遅かれ早かれ",
+      "いずれにしても",
+      "長い目で",
+      "きり"
+    ],
     "answer": 0,
     "explanation": "将来いつかは衰退する可能性を表すには「遅かれ早かれ」が合います。",
     "option_explanations": [
@@ -2138,6 +2413,534 @@
     "knowledge_point": "愛想：「愛想を尽かす」表示厌烦、失望至极；「愛想を尽かしたような態度」符合语境。",
     "difficulty": "N1",
     "review_status": "AI_checked"
+  },
+  {
+    "id": "v106",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "事故の知らせを聞いた彼は、すぐに家族に連絡するよう会社に（　　）を送った。",
+    "options": [
+      "合図",
+      "経緯",
+      "兆し",
+      "情け"
+    ],
+    "answer": 0,
+    "explanation": "「合図を送る」は、相手に行動を伝える信号や知らせを送る表現です。",
+    "option_explanations": [
+      "正解。「合図を送る」は、相手に行動を伝える信号や知らせを送る表現です。",
+      "「経緯」は、この文脈に必要な意味・用法を表しません。",
+      "「兆し」は、この文脈に必要な意味・用法を表しません。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "合図（あいず）：相手に何かを伝えるための信号・知らせ。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v107",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "新しい社長が就任してから、会社の経営方針は（　　）した。",
+    "options": [
+      "最善",
+      "一変",
+      "栄華",
+      "過疎"
+    ],
+    "answer": 1,
+    "explanation": "「一変する」は、状態や様子がすっかり変わることです。",
+    "option_explanations": [
+      "「最善」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「一変する」は、状態や様子がすっかり変わることです。",
+      "「栄華」は、この文脈に必要な意味・用法を表しません。",
+      "「過疎」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "一変（いっぺん）する：様子・状態がすっかり変わる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v108",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "授業中に（　　）してしまい、先生に注意された。",
+    "options": [
+      "おどおど",
+      "居眠り",
+      "畏まり",
+      "拗れ"
+    ],
+    "answer": 1,
+    "explanation": "「居眠りする」は、起きている時間にうとうと眠ることです。",
+    "option_explanations": [
+      "「おどおど」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「居眠りする」は、起きている時間にうとうと眠ることです。",
+      "「畏まり」は、この文脈に必要な意味・用法を表しません。",
+      "「拗れ」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "居眠り（いねむり）する：座ったまま、または活動中にうとうと眠る。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v109",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "台風の影響で川の水が激しく流れ、巨大な（　　）が発生している。",
+    "options": [
+      "渦",
+      "兆し",
+      "合図",
+      "栄華"
+    ],
+    "answer": 0,
+    "explanation": "水が激しく回転している状況なので、「渦」が適切です。",
+    "option_explanations": [
+      "正解。水が激しく回転している状況なので、「渦」が適切です。",
+      "「兆し」は、この文脈に必要な意味・用法を表しません。",
+      "「合図」は、この文脈に必要な意味・用法を表しません。",
+      "「栄華」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "渦（うず）：水や空気などが円を描くように激しく回る流れ。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v110",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "梅雨の時期は、湿気が多くて部屋の中が（　　）感じられる。",
+    "options": [
+      "最善な",
+      "おどおどした",
+      "うっとうしい",
+      "畏まった"
+    ],
+    "answer": 2,
+    "explanation": "「うっとうしい」は、湿気や天候などが不快で気が晴れない様子を表します。",
+    "option_explanations": [
+      "「最善な」は、この文脈に必要な意味・用法を表しません。",
+      "「おどおどした」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「うっとうしい」は、湿気や天候などが不快で気が晴れない様子を表します。",
+      "「畏まった」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "うっとうしい：湿気・天候などが不快で、気分が晴れない様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v111",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "かつてこの地方は貿易で大きな富を築き、長く（　　）を誇っていた。",
+    "options": [
+      "栄華",
+      "過疎",
+      "経緯",
+      "情け"
+    ],
+    "answer": 0,
+    "explanation": "「栄華を誇る」は、富や権勢によって栄えていることを表します。",
+    "option_explanations": [
+      "正解。「栄華を誇る」は、富や権勢によって栄えていることを表します。",
+      "「過疎」は、この文脈に必要な意味・用法を表しません。",
+      "「経緯」は、この文脈に必要な意味・用法を表しません。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "栄華（えいが）：大きな富や権勢を得て栄えること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v112",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "初めての面接だったので、彼は緊張して（　　）とした様子で質問に答えていた。",
+    "options": [
+      "かろうじて",
+      "おどおど",
+      "一変",
+      "最善"
+    ],
+    "answer": 1,
+    "explanation": "「おどおどとした様子」は、不安や緊張で落ち着かない様子です。",
+    "option_explanations": [
+      "「かろうじて」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「おどおどとした様子」は、不安や緊張で落ち着かない様子です。",
+      "「一変」は、この文脈に必要な意味・用法を表しません。",
+      "「最善」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "おどおど：不安や恐れで落ち着かない様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v113",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "地震によって、古い建物の安全性が（　　）おそれがある。",
+    "options": [
+      "報いる",
+      "脅かされる",
+      "庇われる",
+      "遮られる"
+    ],
+    "answer": 1,
+    "explanation": "「安全性が脅かされる」は、安全が損なわれるおそれがあるという意味です。",
+    "option_explanations": [
+      "「報いる」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「安全性が脅かされる」は、安全が損なわれるおそれがあるという意味です。",
+      "「庇われる」は、この文脈に必要な意味・用法を表しません。",
+      "「遮られる」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "脅かす（おびやかす）：安全・地位などを危うくする。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v114",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "医師は病気の原因を詳しく調べるため、患者の体を（　　）した。",
+    "options": [
+      "解剖",
+      "合図",
+      "栄華",
+      "過疎"
+    ],
+    "answer": 0,
+    "explanation": "病気の原因を調べるために体の構造を調べるので、「解剖する」が適切です。",
+    "option_explanations": [
+      "正解。病気の原因を調べるために体の構造を調べるので、「解剖する」が適切です。",
+      "「合図」は、この文脈に必要な意味・用法を表しません。",
+      "「栄華」は、この文脈に必要な意味・用法を表しません。",
+      "「過疎」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "解剖（かいぼう）する：体を切り開いて内部の構造を調べる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v115",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "厳しい態度の上司を前にして、部下たちはみな（　　）座っていた。",
+    "options": [
+      "拗れて",
+      "畏まって",
+      "窪んで",
+      "食い違って"
+    ],
+    "answer": 1,
+    "explanation": "「畏まって座る」は、相手に敬意を示して姿勢を正し、かしこまって座ることです。",
+    "option_explanations": [
+      "「拗れて」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「畏まって座る」は、相手に敬意を示して姿勢を正し、かしこまって座ることです。",
+      "「窪んで」は、この文脈に必要な意味・用法を表しません。",
+      "「食い違って」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "畏まる（かしこまる）：敬意を示し、姿勢や態度を改める。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v116",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "若者が都市部へ流出した結果、この地域では（　　）が深刻な問題になっている。",
+    "options": [
+      "最善",
+      "過疎",
+      "情け",
+      "栄華"
+    ],
+    "answer": 1,
+    "explanation": "人口が減り地域の活力が低下する問題なので、「過疎」が適切です。",
+    "option_explanations": [
+      "「最善」は、この文脈に必要な意味・用法を表しません。",
+      "正解。人口が減り地域の活力が低下する問題なので、「過疎」が適切です。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。",
+      "「栄華」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "過疎（かそ）：ある地域の人口が著しく少なくなること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v117",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "失敗した部下を責めるのではなく、彼の立場を理解して（　　）ことも必要だ。",
+    "options": [
+      "庇う",
+      "遮る",
+      "脅かす",
+      "報いる"
+    ],
+    "answer": 0,
+    "explanation": "相手の立場を理解して守ることを「庇う」と言います。",
+    "option_explanations": [
+      "正解。相手の立場を理解して守ることを「庇う」と言います。",
+      "「遮る」は、この文脈に必要な意味・用法を表しません。",
+      "「脅かす」は、この文脈に必要な意味・用法を表しません。",
+      "「報いる」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "庇う（かばう）：他人を守り、非難や害が及ばないようにする。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v118",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "大雪のため交通機関が大幅に遅れたが、彼は（　　）最終列車に間に合った。",
+    "options": [
+      "かろうじて",
+      "おどおど",
+      "あえて",
+      "さながら"
+    ],
+    "answer": 0,
+    "explanation": "「かろうじて」は、困難な状況の中でぎりぎり実現したことを表します。",
+    "option_explanations": [
+      "正解。「かろうじて」は、困難な状況の中でぎりぎり実現したことを表します。",
+      "「おどおど」は、この文脈に必要な意味・用法を表しません。",
+      "「あえて」は、この文脈に必要な意味・用法を表しません。",
+      "「さながら」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "かろうじて：ぎりぎりのところで、どうにか。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v119",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "景気が回復する（　　）が見え始めた。",
+    "options": [
+      "経緯",
+      "兆し",
+      "情け",
+      "合図"
+    ],
+    "answer": 1,
+    "explanation": "「回復する兆し」は、回復が始まりそうな気配を表します。",
+    "option_explanations": [
+      "「経緯」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「回復する兆し」は、回復が始まりそうな気配を表します。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。",
+      "「合図」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "兆し（きざし）：物事が起こりそうな気配・前触れ。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v120",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "両者の説明には重要な点で（　　）があり、どちらの話を信じるべきか判断できなかった。",
+    "options": [
+      "栄華",
+      "食い違い",
+      "過疎",
+      "最善"
+    ],
+    "answer": 1,
+    "explanation": "説明の内容が一致しないことを「食い違い」と言います。",
+    "option_explanations": [
+      "「栄華」は、この文脈に必要な意味・用法を表しません。",
+      "正解。説明の内容が一致しないことを「食い違い」と言います。",
+      "「過疎」は、この文脈に必要な意味・用法を表しません。",
+      "「最善」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "食い違う（くいちがう）：意見・説明などが一致しない。名詞形は「食い違い」。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v121",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "長年使われてきた道路は、雨水によって一部が（　　）しまっている。",
+    "options": [
+      "脅かされて",
+      "庇われて",
+      "窪んで",
+      "畏まって"
+    ],
+    "answer": 2,
+    "explanation": "雨水で道路の一部が低くへこんだ状態なので、「窪む」が適切です。",
+    "option_explanations": [
+      "「脅かされて」は、この文脈に必要な意味・用法を表しません。",
+      "「庇われて」は、この文脈に必要な意味・用法を表しません。",
+      "正解。雨水で道路の一部が低くへこんだ状態なので、「窪む」が適切です。",
+      "「畏まって」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "窪む（くぼむ）：表面の一部がへこんだ状態になる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v122",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "現在の制度が導入されるまでには、さまざまな議論と試行錯誤の（　　）があった。",
+    "options": [
+      "経緯",
+      "合図",
+      "渦",
+      "情け"
+    ],
+    "answer": 0,
+    "explanation": "制度が導入されるまでの事情や過程を「経緯」と言います。",
+    "option_explanations": [
+      "正解。制度が導入されるまでの事情や過程を「経緯」と言います。",
+      "「合図」は、この文脈に必要な意味・用法を表しません。",
+      "「渦」は、この文脈に必要な意味・用法を表しません。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "経緯（けいい）：物事が現在の状態に至るまでの事情・過程。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v123",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "人をだまして利益を得ようとする彼のやり方は、実に（　　）ものだ。",
+    "options": [
+      "鮮やかな",
+      "汚らわしい",
+      "かろうじて",
+      "畏まった"
+    ],
+    "answer": 1,
+    "explanation": "人をだます行為への強い嫌悪を表すので、「汚らわしい」が適切です。",
+    "option_explanations": [
+      "「鮮やかな」は、この文脈に必要な意味・用法を表しません。",
+      "正解。人をだます行為への強い嫌悪を表すので、「汚らわしい」が適切です。",
+      "「かろうじて」は、この文脈に必要な意味・用法を表しません。",
+      "「畏まった」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "汚らわしい（けがらわしい）：道徳的にひどく不快で、嫌悪を感じる様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v124",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "両国の交渉は、些細な発言がきっかけで（　　）しまい、なかなか合意に至らなかった。",
+    "options": [
+      "一変して",
+      "拗れて",
+      "報いて",
+      "窪んで"
+    ],
+    "answer": 1,
+    "explanation": "交渉や問題が複雑になり、解決しにくくなることを「拗れる」と言います。",
+    "option_explanations": [
+      "「一変して」は、この文脈に必要な意味・用法を表しません。",
+      "正解。交渉や問題が複雑になり、解決しにくくなることを「拗れる」と言います。",
+      "「報いて」は、この文脈に必要な意味・用法を表しません。",
+      "「窪んで」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "拗れる（こじれる）：交渉・問題などが複雑になり、解決しにくくなる。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v125",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "困っている人を見ても、自分には関係ないと考えるのはあまりにも（　　）がない。",
+    "options": [
+      "最善",
+      "情け",
+      "合図",
+      "経緯"
+    ],
+    "answer": 1,
+    "explanation": "「情けがない」は、思いやりがなく冷淡であることを表します。",
+    "option_explanations": [
+      "「最善」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「情けがない」は、思いやりがなく冷淡であることを表します。",
+      "「合図」は、この文脈に必要な意味・用法を表しません。",
+      "「経緯」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "情け（なさけ）：他人を思いやる心。「情けがない」は冷淡なこと。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v126",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "問題をこれ以上悪化させないために、今できる（　　）の策を講じる必要がある。",
+    "options": [
+      "栄華",
+      "最善",
+      "過疎",
+      "情け"
+    ],
+    "answer": 1,
+    "explanation": "「最善の策」は、その状況で最もよい方法を意味します。",
+    "option_explanations": [
+      "「栄華」は、この文脈に必要な意味・用法を表しません。",
+      "正解。「最善の策」は、その状況で最もよい方法を意味します。",
+      "「過疎」は、この文脈に必要な意味・用法を表しません。",
+      "「情け」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "最善（さいぜん）：その状況で最もよいこと。「最善の策」。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v127",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "長年の努力が認められ、彼は会社からその功績に（　　）表彰された。",
+    "options": [
+      "報いて",
+      "脅かして",
+      "庇って",
+      "遮って"
+    ],
+    "answer": 0,
+    "explanation": "「報いる」は、受けた努力や功績に対してそれに見合うものを返すことを表します。",
+    "option_explanations": [
+      "正解。「報いる」は、受けた努力や功績に対してそれに見合うものを返すことを表します。",
+      "「脅かして」は、この文脈に必要な意味・用法を表しません。",
+      "「庇って」は、この文脈に必要な意味・用法を表しません。",
+      "「遮って」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "報いる（むくいる）：受けた恩や相手の努力・功績に対し、それに見合うものを返す。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v128",
+    "type": "vocabulary",
+    "category": "vocabulary_context",
+    "question": "工事の音が大きく、隣の部屋で行われている会議の声を（　　）しまっている。",
+    "options": [
+      "食い違って",
+      "遮って",
+      "報いて",
+      "拗れて"
+    ],
+    "answer": 1,
+    "explanation": "声が届かないように妨げることを「遮る」と言います。",
+    "option_explanations": [
+      "「食い違って」は、この文脈に必要な意味・用法を表しません。",
+      "正解。声が届かないように妨げることを「遮る」と言います。",
+      "「報いて」は、この文脈に必要な意味・用法を表しません。",
+      "「拗れて」は、この文脈に必要な意味・用法を表しません。"
+    ],
+    "knowledge_point": "遮る（さえぎる）：進行や伝達を妨げ、向こう側へ届かないようにする。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
   }
 ]
-
