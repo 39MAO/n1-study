@@ -715,6 +715,79 @@ body {
   }
 }
 
+/* 错题复习按钮。 */
+.review-button {
+  width: 100%;
+  min-height: 2.75rem;
+  margin: 0 0 0.75rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid #d5deed;
+  border-radius: 0.7rem;
+  background: #f5f8fd;
+  color: #344f7d;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.review-button:hover { border-color: #aebed8; background: #edf2fb; }
+.review-button:focus-visible { outline: 3px solid #6284c0; outline-offset: 3px; }
+.review-button[hidden] { display: none; }
+
+/* 答题页面的上一题 / 跳过操作。 */
+.question-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1rem 0 0;
+}
+
+.secondary-button {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0 1.15rem;
+  border: 1px solid #d8dfe9;
+  border-radius: 0.7rem;
+  background: #fff;
+  color: #36465f;
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 650;
+  transition: border-color 140ms ease, background-color 140ms ease, color 140ms ease;
+}
+
+.secondary-button:hover:not(:disabled) { border-color: #9cafd0; background: #f6f9ff; }
+.secondary-button:focus-visible { outline: 3px solid #6284c0; outline-offset: 3px; }
+.secondary-button:disabled { border-color: #e5e9ee; background: #f7f8fa; color: #9aa5b4; cursor: default; }
+.skip-button { margin-left: auto; }
+.secondary-button[hidden], .skip-button[hidden] { display: none; }
+
+/* 题库导入器（首页入口 + tools 页面）。 */
+.maintenance-link { width: min(100%, 43rem); margin: 1.5rem auto 0; text-align: center; }
+.maintenance-link a { color: #526c9c; font-size: 0.88rem; font-weight: 650; text-decoration: none; }
+.maintenance-link a:hover { text-decoration: underline; }
+
+.importer { margin-top: 2.25rem; }
+.importer .quiz-heading h1 { font-size: clamp(1.45rem, 5vw, 2rem); }
+.import-intro { margin: 0.85rem auto 0; color: var(--muted); font-size: 0.95rem; line-height: 1.7; text-align: left; }
+.import-label { display: block; margin: 1.2rem 0 0.5rem; font-size: 0.92rem; font-weight: 700; }
+.file-input, .import-text-input, .import-textarea { width: 100%; min-height: 2.9rem; padding: 0.75rem; border: 1px solid #dfe4ec; border-radius: 0.65rem; background: #fff; color: var(--ink); font: inherit; }
+.import-textarea { min-height: 16rem; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.84rem; line-height: 1.6; resize: vertical; }
+.file-input:focus-visible, .import-text-input:focus-visible, .import-textarea:focus-visible { outline: 3px solid #6284c0; outline-offset: 2px; }
+.import-hint { color: var(--muted); font-size: 0.83rem; line-height: 1.65; }
+.import-hint code { overflow-wrap: anywhere; }
+.review-confirm { display: flex; align-items: flex-start; gap: 0.65rem; margin: 1.1rem 0; padding: 0.9rem; border-radius: 0.7rem; background: #f2f5fa; color: #465263; font-size: 0.9rem; line-height: 1.6; }
+.review-confirm input { width: 1.15rem; height: 1.15rem; flex: 0 0 auto; margin: 0.15rem 0 0; }
+.import-actions { display: grid; gap: 0.65rem; }
+.next-button:disabled { background: #9099a8; cursor: not-allowed; }
+.import-status { margin-top: 0.9rem; padding: 1rem; text-align: left; }
+.import-preview { display: grid; gap: 0.55rem; padding-left: 1.35rem; color: #465263; font-size: 0.87rem; line-height: 1.6; overflow-wrap: anywhere; }
+
 /* 暗色模式 */
 :root.theme-changing,
 :root.theme-changing *,
@@ -754,7 +827,9 @@ body {
 [data-theme="dark"] .feedback-block p,
 [data-theme="dark"] .knowledge-box p,
 [data-theme="dark"] .feedback-options,
-[data-theme="dark"] .result-row {
+[data-theme="dark"] .result-row,
+[data-theme="dark"] .import-preview,
+[data-theme="dark"] .review-confirm {
   color: var(--text-secondary);
 }
 
@@ -765,7 +840,8 @@ body {
 [data-theme="dark"] .card-icon,
 [data-theme="dark"] .category-badge,
 [data-theme="dark"] .knowledge-box,
-[data-theme="dark"] .result-row {
+[data-theme="dark"] .result-row,
+[data-theme="dark"] .review-confirm {
   background: var(--surface-muted);
   color: var(--text-secondary);
 }
@@ -784,16 +860,29 @@ body {
 }
 
 [data-theme="dark"] .answer-option,
-[data-theme="dark"] .option-letter {
+[data-theme="dark"] .option-letter,
+[data-theme="dark"] .file-input,
+[data-theme="dark"] .import-text-input,
+[data-theme="dark"] .import-textarea,
+[data-theme="dark"] .secondary-button,
+[data-theme="dark"] .review-button {
   border-color: #475465;
   background: #202834;
   color: var(--ink);
 }
 
 [data-theme="dark"] .answer-option:hover,
+[data-theme="dark"] .secondary-button:hover:not(:disabled),
+[data-theme="dark"] .review-button:hover,
 [data-theme="dark"] .theme-toggle:hover {
   border-color: #647995;
   background: #2b3746;
+}
+
+[data-theme="dark"] .secondary-button:disabled {
+  border-color: #3a4552;
+  background: #1b222c;
+  color: #6b7686;
 }
 
 [data-theme="dark"] .answer-option:disabled:hover {
@@ -838,7 +927,14 @@ body {
   background: #29384e;
 }
 
-[data-theme="dark"] .result-rate-row dd {
+[data-theme="dark"] .result-rate-row dd,
+[data-theme="dark"] .maintenance-link a {
   color: #a9c2ef;
+}
+
+[data-theme="dark"] .file-input,
+[data-theme="dark"] .import-text-input,
+[data-theme="dark"] .import-textarea {
+  color-scheme: dark;
 }
 

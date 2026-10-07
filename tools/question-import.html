@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f8fb" />
+    <title>批量加入题目 — N1 Study</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <main class="quiz-page">
+      <header class="quiz-header">
+        <a class="back-link" href="../">← 首页</a>
+        <a class="quiz-brand" href="../">N1 Study</a>
+        <div class="quiz-header-actions">
+          <span class="quiz-section-label">题库维护</span>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换到暗色模式" title="切换到暗色模式" aria-pressed="false">
+            <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path class="bulb-glass" d="M9 18h6m-5 3h4m-6.1-6.2a7 7 0 1 1 8.2 0c-.9.7-1.3 1.5-1.4 2.2h-5.4c-.1-.7-.5-1.5-1.4-2.2Z" />
+              <path class="bulb-ray" d="M12 1v2m8.2 2.8-1.4 1.4M23 12h-2M4.6 5.8 3.2 4.4M3 12H1" />
+            </svg>
+          </button>
+        </div>
+      </header>
+      <section class="quiz-content importer" aria-labelledby="import-title">
+        <div class="quiz-heading">
+          <p class="quiz-kicker">QUESTION BANK</p>
+          <h1 id="import-title">批量加入原创题目</h1>
+          <p class="import-intro">把新题粘贴为 JSON 数组，检查后下载合并好的题库文件，再替换项目中的对应 JSON 文件。</p>
+        </div>
+
+        <label class="import-label" for="bank-file">① 选择现有题库文件</label>
+        <input id="bank-file" class="file-input" type="file" accept=".json,application/json" />
+        <label class="import-label" for="question-json">② 粘贴新题（JSON 数组）</label>
+        <textarea id="question-json" class="import-textarea" rows="14" spellcheck="false" placeholder='[{"category":"word_meaning","question":"…","options":["…","…","…","…"],"answer":0,"explanation":"…","option_explanations":["…","…","…","…"],"knowledge_point":"…"}]'></textarea>
+        <p class="import-hint">每题需有 category、question、4 个 options、answer（从 0 开始）、explanation、4 条 option_explanations 和 knowledge_point。id、type、difficulty、审核状态和来源元数据会自动补齐。</p>
+        <details class="import-template">
+          <summary>查看单题模板</summary>
+          <pre>[{
+  "category": "word_usage",
+  "question": "注意を受けた彼は、相手を一瞬（　　）ものの、すぐに目をそらした。",
+  "options": ["にらんだ", "眺めた", "見送った", "見渡した"],
+  "answer": 0,
+  "explanation": "「目をそらした」与前面的动作形成转折，短暂地带着不满瞪视对方，符合「にらむ」的用法。",
+  "option_explanations": ["正确。「相手をにらむ」表示带着敌意或不满瞪视对方。", "表示观赏或注视，不含敌意。", "表示目送离开的人或事物。", "表示环顾周围。"],
+  "knowledge_point": "にらむ：带有敌意或警戒地盯着。"
+}]</pre>
+        </details>
+
+        <label class="import-label" for="source-reference">③ 记录参考的题型/规律（不记录参考原题）</label>
+        <input id="source-reference" class="import-text-input" type="text" value="JLPT N1 style: question type, difficulty and tested point only" maxlength="160" />
+        <label class="review-confirm"><input id="human-reviewed" type="checkbox" /> 我已逐题检查日语自然度、固定搭配、唯一正确答案、干扰项和相似度；这些新题均为原创，没有复制或轻微改写公开题目。</label>
+        <div class="import-actions">
+          <button id="validate-import" class="next-button" type="button">检查题目</button>
+          <button id="download-import" class="next-button" type="button" disabled>合并并下载题库</button>
+        </div>
+        <div id="import-status" class="quiz-status import-status" role="status" aria-live="polite">选择对应题库文件并粘贴新题后即可检查。</div>
+        <ol id="import-preview" class="import-preview" aria-live="polite"></ol>
+        <p class="import-hint">下载的文件包含原题库和新题。请用它替换 <code>data/vocabulary.json</code> 或 <code>data/grammar.json</code>，提交到 GitHub 后线上网站才会更新。题目只保存在你选择的本机文件和浏览器内，不会发送到服务器。</p>
+      </section>
+    </main>
+    <script src="../js/app.js" defer></script>
+    <script src="./question-import.js" defer></script>
+  </body>
+</html>

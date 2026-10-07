@@ -40,6 +40,7 @@
             <span id="question-count">第 1 / 0 题</span>
             <span id="question-category" class="category-badge"></span>
           </div>
+          <button id="review-mistakes" class="review-button" type="button">错题复习</button>
           <div class="progress-track" aria-hidden="true">
             <div id="progress-fill" class="progress-fill"></div>
           </div>
@@ -47,6 +48,19 @@
             <p id="question-prompt" class="question-prompt" lang="ja"></p>
             <div id="answer-options" class="answer-options" role="group" aria-label="选择一个答案"></div>
           </article>
+          <div class="question-nav">
+            <button id="previous-question" class="secondary-button" type="button">
+              <span aria-hidden="true">←</span> 上一题
+            </button>
+            <button
+              id="skip-question"
+              class="secondary-button skip-button"
+              type="button"
+              title="跳过本题，计为答错"
+            >
+              跳过
+            </button>
+          </div>
           <section id="answer-feedback" class="feedback-panel" aria-live="polite" hidden>
             <h2 id="feedback-result" class="feedback-result"></h2>
             <div class="feedback-block">
@@ -88,6 +102,7 @@
             </div>
           </dl>
           <button id="restart-practice" class="next-button" type="button">もう一度挑戦する</button>
+          <button id="review-results-mistakes" class="review-button" type="button" hidden>再练本轮错题</button>
         </section>
       </section>
     </main>
