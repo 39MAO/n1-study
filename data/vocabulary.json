@@ -3448,5 +3448,396 @@
     "knowledge_point": "適性（てきせい）：适性、适合某工作的性质或能力。「適性がある／適性検査」。",
     "difficulty": "N1",
     "review_status": "AI_checked"
+  },
+  {
+    "id": "v151",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "彼は大学教授の研究や授業を補助する（　　）として大学に勤めている。",
+    "options": [
+      "講師",
+      "助教",
+      "教授",
+      "教頭"
+    ],
+    "answer": 1,
+    "explanation": "「助教」は大学教授の研究や授業を補助する職です。",
+    "option_explanations": [
+      "「講師」は非常勤で授業を担当する職です。",
+      "正解。大学教授の研究や授業を補助する職です。",
+      "「教授」はより上位の职称です。",
+      "「教頭」は小中学校の管理職です。"
+    ],
+    "knowledge_point": "助教（じょきょう）：大学で教授の研究・授業を補助する職。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v152",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "このプロジェクトは、複数の企業が（　　）して進めている。",
+    "options": [
+      "同調",
+      "競合",
+      "協同",
+      "対立"
+    ],
+    "answer": 2,
+    "explanation": "「協同」は力を合わせて一緒に行うことです。",
+    "option_explanations": [
+      "「同調」は他人の意見に賛成して従うことです。",
+      "「競合」は互いに競争することです。",
+      "正解。「協同」は力を合わせて一緒に行うことです。",
+      "「対立」は意見などが反対でぶつかることです。"
+    ],
+    "knowledge_point": "協同（きょうどう）：力を合わせて一緒に行うこと。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v153",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "上司に報告する前に、まず現在の作業の（　　）を確認しておこう。",
+    "options": [
+      "進路",
+      "進呈",
+      "進化",
+      "進捗"
+    ],
+    "answer": 3,
+    "explanation": "「進捗」は物事がどの程度進んだかを表します。",
+    "option_explanations": [
+      "「進路」は進むべき道や方向のことです。",
+      "「進呈」は相手に差し上げることです。",
+      "「進化」は生物などが変化して発達することです。",
+      "正解。「進捗」は物事がどの程度進んだかを表します。"
+    ],
+    "knowledge_point": "進捗（しんちょく）：物事がどの程度進んだか。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v154",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "彼は何度注意しても、（　　）改善しようとしない。",
+    "options": [
+      "一概に",
+      "一段と",
+      "一層",
+      "一向に"
+    ],
+    "answer": 3,
+    "explanation": "「一向に～ない」で、まったく～ないという意味です。",
+    "option_explanations": [
+      "「一概に」は「一概に言えない」のように、ひとまとめにはという意味です。",
+      "「一段と」は今までよりさらにという意味です。",
+      "「一層」は前よりさらにという意味です。",
+      "正解。「一向に～ない」で、まったく～ないという意味です。"
+    ],
+    "knowledge_point": "一向に（いっこうに）：あとに否定を伴い、まったく～ない。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v155",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "一度なら（　　）、何度も同じミスを繰り返すのは問題だ。",
+    "options": [
+      "なおさら",
+      "かえって",
+      "むしろ",
+      "まだしも"
+    ],
+    "answer": 3,
+    "explanation": "「まだしも」は、それならまだ許せるが、という意味です。",
+    "option_explanations": [
+      "「なおさら」は、さらに程度が増すという意味です。",
+      "「かえって」は、予想に反して逆にという意味です。",
+      "「むしろ」は、どちらかと言えばという意味です。",
+      "正解。「まだしも」は、それならまだ許せるが、という意味です。"
+    ],
+    "knowledge_point": "まだしも：それならまだ許せるが、という意味。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v156",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "この技術は、業界に大きな変革をもたらす（　　）な発明だと言われている。",
+    "options": [
+      "定期的",
+      "積極的",
+      "画期的",
+      "消極的"
+    ],
+    "answer": 2,
+    "explanation": "「画期的」は、時代を画するほど新しいという意味です。",
+    "option_explanations": [
+      "「定期的」は、一定の期間ごとに行われることです。",
+      "「積極的」は、進んで行うことです。",
+      "正解。「画期的」は、時代を画するほど新しいという意味です。",
+      "「消極的」は、進んで行わないことです。"
+    ],
+    "knowledge_point": "画期的（かっきてき）：時代を画するほど新しいさま。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v157",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "真面目な話をしているのに、（　　）のはやめてください。",
+    "options": [
+      "怠ける",
+      "甘える",
+      "ふざける",
+      "騒ぐ"
+    ],
+    "answer": 2,
+    "explanation": "「ふざける」は、冗談を言ったりふまじめな行動をすることです。",
+    "option_explanations": [
+      "「怠ける」は、やるべきことをしないでだらだらすることです。",
+      "「甘える」は、他人の好意に頼ることです。",
+      "正解。「ふざける」は、冗談を言ったりふまじめな行動をすることです。",
+      "「騒ぐ」は、大きな声を出したりして落ち着かないことです。"
+    ],
+    "knowledge_point": "ふざける：冗談を言ったり、ふまじめな行動をすること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v158",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "目標を達成するまでの（　　）は、決して平坦なものではなかった。",
+    "options": [
+      "足取り",
+      "通り道",
+      "道順",
+      "道のり"
+    ],
+    "answer": 3,
+    "explanation": "「道のり」は、目的地までの距離や過程を表します。",
+    "option_explanations": [
+      "「足取り」は、歩くときの足の運び方です。",
+      "「通り道」は、通る道のことです。",
+      "「道順」は、通る順序や経路です。",
+      "正解。「道のり」は、目的地までの距離や過程を表します。"
+    ],
+    "knowledge_point": "道のり（みちのり）：目的地までの距離や過程。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v159",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "一度失敗しても、彼はすぐに気持ちを（　　）、また挑戦し始めた。",
+    "options": [
+      "取り乱して",
+      "取り消して",
+      "取り直して",
+      "取り替えて"
+    ],
+    "answer": 2,
+    "explanation": "「取り直す」は、気持ちを新たに立て直すことです。",
+    "option_explanations": [
+      "「取り乱す」は、動揺して冷静さを失うことです。",
+      "「取り消す」は、一度したことをなかったことにする意味です。",
+      "正解。「取り直す」は、気持ちを新たに立て直すことです。",
+      "「取り替える」は、別のものと交換する意味です。"
+    ],
+    "knowledge_point": "取り直す（とりなおす）：気持ちを新たに立て直す。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v160",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "この乾燥剤は（　　）性が高く、食品の湿気を防ぐのに役立つ。",
+    "options": [
+      "吸収",
+      "吸引",
+      "吸着",
+      "吸湿"
+    ],
+    "answer": 3,
+    "explanation": "「吸湿」は、湿気を吸い取る性質を表します。",
+    "option_explanations": [
+      "「吸収」は、内部に取り込むことです。",
+      "「吸引」は、引き寄せることです。",
+      "「吸着」は、表面に付着することです。",
+      "正解。「吸湿」は、湿気を吸い取る性質を表します。"
+    ],
+    "knowledge_point": "吸湿（きゅうしつ）：湿気を吸い取ること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v161",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "新製品は来月、記者会見で（　　）される予定だ。",
+    "options": [
+      "お目見え",
+      "ご挨拶",
+      "お披露目",
+      "お知らせ"
+    ],
+    "answer": 2,
+    "explanation": "「お披露目」は、広く一般に公開することです。",
+    "option_explanations": [
+      "「お目見え」は、初めて人前に出ることです。",
+      "「ご挨拶」は、礼儀として言葉を述べることです。",
+      "正解。「お披露目」は、広く一般に公開することです。",
+      "「お知らせ」は、情報を伝えることです。"
+    ],
+    "knowledge_point": "お披露目（おひろめ）：広く一般に公開すること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v162",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "冷蔵庫から出したばかりの牛乳は、（　　）していて気持ちがいい。",
+    "options": [
+      "からっと",
+      "しっとり",
+      "ほかほか",
+      "ひんやり"
+    ],
+    "answer": 3,
+    "explanation": "「ひんやり」は、冷たくて心地よい様子です。",
+    "option_explanations": [
+      "「からっと」は、乾燥して気持ちよい様子です。",
+      "「しっとり」は、湿り気があって落ち着いた様子です。",
+      "「ほかほか」は、温かくて気持ちよい様子です。",
+      "正解。「ひんやり」は、冷たくて心地よい様子です。"
+    ],
+    "knowledge_point": "ひんやり：冷たくて心地よい様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v163",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "この容器は（　　）されているため、中の液体が漏れる心配はない。",
+    "options": [
+      "密閉",
+      "閉鎖",
+      "密封",
+      "封鎖"
+    ],
+    "answer": 2,
+    "explanation": "「密封」は、すきまなく閉じて外気を遮断することです。",
+    "option_explanations": [
+      "「密閉」は、密閉空間にすることです。",
+      "「閉鎖」は、閉ざすことです。",
+      "正解。「密封」は、すきまなく閉じて外気を遮断することです。",
+      "「封鎖」は、交通や通信を遮断することです。"
+    ],
+    "knowledge_point": "密封（みっぷう）：すきまなく閉じて外気を遮断すること。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v164",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "彼女は優れた語学力と豊富な経験を（　　）いる。",
+    "options": [
+      "兼ねて",
+      "備わって",
+      "合わせて",
+      "兼ね備えて"
+    ],
+    "answer": 3,
+    "explanation": "「兼ね備える」は、複数のものを同時に持っていることです。",
+    "option_explanations": [
+      "「兼ねて」は、ある目的を兼ねるという意味です。",
+      "「備わって」は、自然に身についていることです。",
+      "「合わせて」は、一緒にするという意味です。",
+      "正解。「兼ね備える」は、複数のものを同時に持っていることです。"
+    ],
+    "knowledge_point": "兼ね備える（かねそなえる）：複数のものを同時に持っている。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v165",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "雨の日に傘を差さずに歩いたら、服が（　　）してしまった。",
+    "options": [
+      "しっとり",
+      "さらさら",
+      "ふわふわ",
+      "べちゃっと"
+    ],
+    "answer": 3,
+    "explanation": "「べちゃっと」は、濡れて気持ち悪い様子です。",
+    "option_explanations": [
+      "「しっとり」は、湿り気があって落ち着いた様子です。",
+      "「さらさら」は、乾いて滑らかな様子です。",
+      "「ふわふわ」は、柔らかく軽い様子です。",
+      "正解。「べちゃっと」は、濡れて気持ち悪い様子です。"
+    ],
+    "knowledge_point": "べちゃっと：濡れて気持ち悪い様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v166",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "これだけ売れている（　　）、今期の目標は達成できそうだ。",
+    "options": [
+      "その分",
+      "あの分",
+      "どの分",
+      "この分"
+    ],
+    "answer": 3,
+    "explanation": "「この分」は、この調子、この様子という意味です。",
+    "option_explanations": [
+      "「その分」は、それに相当する分という意味です。",
+      "「あの分」は、あれに相当する分という意味です。",
+      "「どの分」は、どれに相当する分という意味です。",
+      "正解。「この分」は、この調子、この様子という意味です。"
+    ],
+    "knowledge_point": "この分（このぶん）：この調子、この様子。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
+  },
+  {
+    "id": "v167",
+    "type": "vocabulary",
+    "category": "word_usage",
+    "question": "まさか彼がそんなことをするとは、（　　）ことだった。",
+    "options": [
+      "思い違い",
+      "思いのほか",
+      "思いもよらない",
+      "思い切り"
+    ],
+    "answer": 2,
+    "explanation": "「思いもよらない」は、まったく予想できなかったという意味です。",
+    "option_explanations": [
+      "「思い違い」は、誤った考えのことです。",
+      "「思いのほか」は、予想に反してという意味です。",
+      "正解。「思いもよらない」は、まったく予想できなかったという意味です。",
+      "「思い切り」は、心ゆくまでという意味です。"
+    ],
+    "knowledge_point": "思いもよらない：まったく予想できなかった。",
+    "difficulty": "N1",
+    "review_status": "AI_checked"
   }
 ]
