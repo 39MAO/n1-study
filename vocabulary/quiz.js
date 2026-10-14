@@ -39,6 +39,9 @@ const categoryNamesByKind = {
 const quizKind = document.body.dataset.quizKind ?? "vocabulary";
 const questionDataUrl = document.body.dataset.quizData ?? "../data/vocabulary.json";
 const categoryNames = categoryNamesByKind[quizKind] ?? categoryNamesByKind.vocabulary;
+const dailyQuestionCount = 20;
+const dailySelectionStorageKey = "n1-study:last-daily-selection";
+let dailyBanks = null;
 
 let questions = [];
 let currentIndex = 0;
@@ -70,6 +73,32 @@ function refreshReviewButton() {
 
 async function loadQuestions() {
   try {
+    if (quizKind === "daily") {
+      const [vocabularyResponse, grammarResponse] = await Promise.all([
+        fetch("../data/vocabulary.json"),
+        fetch("../data/grammar.json"),
+      ]);
+      if (!vocabularyResponse.ok || !grammarResponse.ok) throw new Error("题库文件读取失败");
+
+      const [vocabularyBank, grammarBank] = await Promise.all([
+        vocabularyResponse.json(),
+        grammarResponse.json(),
+      ]);
+      const approved = (bank) => bank.filter((question) =>
+        ["AI_checked", "human_checked"].includes(question.review_status),
+      );
+      dailyBanks = { vocabulary: approved(vocabularyBank), grammar: approved(grammarBank) };
+      const dailyQuestions = drawDailyQuestions();
+      if (dailyQuestions.length < dailyQuestionCount) {
+        status.textContent = `题库目前只有 ${dailyQuestions.length} 道已审核题目，至少需要 20 道才能开始每日练习。`;
+        return;
+      }
+      allQuestions = dailyQuestions;
+      startPractice(dailyQuestions);
+      showQuestion();
+      return;
+    }
+
     const response = await fetch(questionDataUrl);
     if (!response.ok) throw new Error("题库文件读取失败");
 
@@ -88,6 +117,44 @@ async function loadQuestions() {
   } catch (error) {
     status.textContent = "暂时无法读取题库。请通过本地网站预览打开此页面。";
   }
+}
+
+function shuffle(list) {
+  const shuffled = [...list];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const swapIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function drawDailyQuestions() {
+  if (!dailyBanks) return [];
+  let previousSelection = "";
+  try { previousSelection = localStorage.getItem(dailySelectionStorageKey) || ""; }
+  catch { /* Random practice still works when browser storage is disabled. */ }
+
+  let selected = [];
+  let signature = "";
+  for (let attempt = 0; attempt < 10; attempt += 1) {
+    const vocabulary = shuffle(dailyBanks.vocabulary);
+    const grammar = shuffle(dailyBanks.grammar);
+    const selectedByCategory = [
+      ...vocabulary.slice(0, Math.min(10, vocabulary.length)),
+      ...grammar.slice(0, Math.min(10, grammar.length)),
+    ];
+
+    // If a category has fewer than ten approved questions, fill from the other bank.
+    const selectedIds = new Set(selectedByCategory.map((question) => question.id));
+    const remaining = shuffle([...vocabulary, ...grammar].filter((question) => !selectedIds.has(question.id)));
+    selected = shuffle([...selectedByCategory, ...remaining.slice(0, dailyQuestionCount - selectedByCategory.length)]);
+    signature = selected.map((question) => question.id).sort().join(",");
+    if (signature !== previousSelection || attempt === 9) break;
+  }
+
+  try { localStorage.setItem(dailySelectionStorageKey, signature); }
+  catch { /* Random practice still works when browser storage is disabled. */ }
+  return selected;
 }
 
 /** 开始一轮练习：重置进度与每题的作答记录。 */
@@ -110,7 +177,10 @@ function showQuestion() {
   questionArea.hidden = false;
   count.textContent = `第 ${questionNumber} / ${questions.length} 题`;
   refreshReviewButton();
-  category.textContent = categoryNames[question.category] ?? (quizKind === "grammar" ? "文法" : "語彙");
+  const categoryName = categoryNames[question.category] ?? (question.type === "grammar" ? "文法" : "語彙");
+  category.textContent = quizKind === "daily"
+    ? `${question.type === "grammar" ? "文法" : "語彙"} · ${categoryName}`
+    : categoryName;
   prompt.textContent = question.question;
   progressFill.style.width = `${(questionNumber / questions.length) * 100}%`;
   options.replaceChildren();
@@ -275,6 +345,12 @@ function showResults() {
 
 restartButton.addEventListener("click", () => {
   isReviewSession = false;
+  if (quizKind === "daily") {
+    allQuestions = drawDailyQuestions();
+    startPractice(allQuestions);
+    showQuestion();
+    return;
+  }
   startPractice(allQuestions);
   showQuestion();
 });
@@ -305,4 +381,5 @@ reviewButton.addEventListener("click", () => {
 reviewResultsButton.addEventListener("click", () => startMistakeReview([...sessionMistakeIds]));
 
 loadQuestions();
+
 

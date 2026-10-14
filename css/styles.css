@@ -198,6 +198,19 @@ body {
     transform 150ms ease;
 }
 
+.daily-card {
+  grid-column: 1 / -1;
+  min-height: 6.5rem;
+  border-color: #d6e0f1;
+  background: #f9fbff;
+}
+
+.daily-card .card-icon {
+  background: #e7eefb;
+  color: #304d82;
+  font-size: 1rem;
+}
+
 .practice-card:hover {
   transform: translateY(-2px);
   border-color: #c7d3e7;
@@ -851,6 +864,11 @@ body {
   color: #d1b9fa;
 }
 
+[data-theme="dark"] .daily-card {
+  border-color: var(--line);
+  background: var(--surface);
+}
+
 [data-theme="dark"] .card-arrow,
 [data-theme="dark"] .quiz-section-label,
 [data-theme="dark"] .eyebrow,
@@ -937,4 +955,5 @@ body {
 [data-theme="dark"] .import-textarea {
   color-scheme: dark;
 }
+
 

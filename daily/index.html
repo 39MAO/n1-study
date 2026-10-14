@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f6f8fb" />
+    <meta name="description" content="每天随机练习 20 道 JLPT N1 词汇与语法题。" />
+    <title>每日练习 — N1 Study</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body data-quiz-kind="daily">
+    <main class="quiz-page">
+      <header class="quiz-header">
+        <a class="back-link" href="../" aria-label="返回首页"><span aria-hidden="true">←</span> 首页</a>
+        <a class="quiz-brand" href="../">N1 Study</a>
+        <div class="quiz-header-actions">
+          <span class="quiz-section-label">每日 20 题</span>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换到暗色模式" title="切换到暗色模式" aria-pressed="false">
+            <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path class="bulb-glass" d="M9 18h6m-5 3h4m-6.1-6.2a7 7 0 1 1 8.2 0c-.9.7-1.3 1.5-1.4 2.2h-5.4c-.1-.7-.5-1.5-1.4-2.2Z" />
+              <path class="bulb-ray" d="M12 1v2m8.2 2.8-1.4 1.4M23 12h-2M4.6 5.8 3.2 4.4M3 12H1" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <section class="quiz-content" aria-labelledby="quiz-title">
+        <div class="quiz-heading">
+          <p class="quiz-kicker">DAILY PRACTICE</p>
+          <h1 id="quiz-title">每日练习</h1>
+          <p class="hero-description">词汇 10 题 + 语法 10 题，每次随机选题。</p>
+        </div>
+        <div id="quiz-status" class="quiz-status" role="status" aria-live="polite">正在准备今日练习…</div>
+
+        <div id="question-area" class="question-area" hidden>
+          <div class="question-meta">
+            <span id="question-count">第 1 / 20 题</span>
+            <span id="question-category" class="category-badge"></span>
+          </div>
+          <button id="review-mistakes" class="review-button" type="button">错题复习</button>
+          <div class="progress-track" aria-hidden="true"><div id="progress-fill" class="progress-fill"></div></div>
+          <article class="question-card">
+            <p id="question-prompt" class="question-prompt" lang="ja"></p>
+            <div id="answer-options" class="answer-options" role="group" aria-label="选择一个答案"></div>
+          </article>
+          <div class="question-nav">
+            <button id="previous-question" class="secondary-button" type="button"><span aria-hidden="true">←</span> 上一题</button>
+            <button id="skip-question" class="secondary-button skip-button" type="button" title="跳过本题，计为答错">跳过</button>
+          </div>
+          <section id="answer-feedback" class="feedback-panel" aria-live="polite" hidden>
+            <h2 id="feedback-result" class="feedback-result"></h2>
+            <div class="feedback-block"><h3>解析</h3><p id="feedback-explanation"></p></div>
+            <div class="feedback-block"><h3>选项说明</h3><ul id="feedback-options" class="feedback-options"></ul></div>
+            <div class="knowledge-box"><h3>相关知识点</h3><p id="feedback-knowledge"></p></div>
+            <button id="next-question" class="next-button" type="button">下一题</button>
+          </section>
+        </div>
+
+        <section id="results-screen" class="results-screen" aria-labelledby="results-title" hidden>
+          <p class="quiz-kicker">PRACTICE COMPLETE</p>
+          <h2 id="results-title">练习完成！</h2>
+          <p class="results-message">本轮答题结果</p>
+          <dl class="results-list">
+            <div class="result-row"><dt>总题数</dt><dd id="result-total">0</dd></div>
+            <div class="result-row"><dt>正确数量</dt><dd id="result-correct">0</dd></div>
+            <div class="result-row"><dt>错误数量</dt><dd id="result-incorrect">0</dd></div>
+            <div class="result-row result-rate-row"><dt>正确率</dt><dd id="result-rate">0%</dd></div>
+          </dl>
+          <button id="restart-practice" class="next-button" type="button">再抽一组题目</button>
+          <button id="review-results-mistakes" class="review-button" type="button" hidden>再练本轮错题</button>
+        </section>
+      </section>
+    </main>
+    <script src="../js/app.js" defer></script>
+    <script src="../vocabulary/quiz.js" defer></script>
+  </body>
+</html>
+
